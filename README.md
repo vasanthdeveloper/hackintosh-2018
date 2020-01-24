@@ -3,9 +3,6 @@
 > _**Disclaimer:** All the guides, links, `kexts` and configurations are specific to my hardware. Following this repository for 
 any other hardware is discouraged._
 
-## 🚀 Fast track
-**Will be updated in future commits.**
-
 ## 🍀 Clover
 _**Note:** As ethernet driver injection is not working in newer versions of Clover bootloader, the tested and preferred version is v5070._
 
