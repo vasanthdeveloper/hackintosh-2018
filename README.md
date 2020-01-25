@@ -86,9 +86,6 @@ mkdir -p {EFI/CLOVER/ACPI/patched,EFI/CLOVER/ACPI/origin,EFI/CLOVER/ACPI/WINDOWS
 
 As I didn't have a USB Type-C device to map that USB port, I didn't. Another point to be noted is that the first two USB 3.0s on the motherboard could not be mapped as they were not detected by the [USBMap](https://github.com/corpnewt/USBMap) script. If you have mapped the leftover USB 3.0s as well as the Type-C port, please contribute (pull request) this repository, so it will be useful for anyone else 😃.
 
-## ✅ Todo:
-1. Replace `AptioMemoryFix` with `OsXAptioFix3Drv` which is newer and is in-development.
-
 <br>
 
 > [vasanth.tech](https://vasanth.tech) &nbsp;&middot;&nbsp;
