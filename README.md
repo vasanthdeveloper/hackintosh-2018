@@ -57,8 +57,8 @@ _**Note:** As ethernet driver injection is not working in newer versions of Clov
         <td><a href="https://github.com/acidanthera/lilu/releases"><strong>Download</strong></a></td>
     </tr>
     <tr>
-        <td>USBInjectAll</td>
-        <td>Should be replaced with <code>USBMap.kext</code>.</td>
+        <td>USBMap</td>
+        <td>Injects the USB ports specific to motherboard, and fixes USB power issues.</td>
         <td><a><strong>Download</strong></a></td>
     </tr>
     <tr>
@@ -72,6 +72,19 @@ _**Note:** As ethernet driver injection is not working in newer versions of Clov
         <td><a href="https://github.com/acidanthera/whatevergreen/releases"><strong>Download</strong></a></td>
     </tr>
 </table>
+
+## 🔨 Installing `USBMap.kext`
+_**Note:** This kernel extension and DSDT patches will only for for the hardware prescribed [here](#). Other than the exact same hardware, using it anywhere else will **NOT** work!_
+
+_**Note:** The below commands should be executed relative to the root of your EFI partition._
+1. Create the necessary directory structure.
+```
+mkdir -p {EFI/CLOVER/ACPI/patched,EFI/CLOVER/ACPI/origin,EFI/CLOVER/ACPI/WINDOWS}
+```
+2. Copy the `USBMap.kext` from this repository to `EFI/CLOVER/kexts/Other`.
+3. Copy both the `SSDT-USBX.aml` and `SSDT-USBX.dsl` to `EFI/CLOVER/ACPI/patched`.
+
+As I didn't have a USB Type-C device to map that USB port, I didn't. Another point to be noted is that the first two USB 3.0s on the motherboard could not be mapped as they were not detected by the [USBMap](https://github.com/corpnewt/USBMap) script. If you have mapped the leftover USB 3.0s as well as the Type-C port, please contribute (pull request) this repository, so it will be useful for anyone else 😃.
 
 ## ✅ Todo:
 1. Replace `AptioMemoryFix` with `OsXAptioFix3Drv` which is newer and is in-development.
