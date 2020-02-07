@@ -695,6 +695,7 @@
 		<array>
 			<string>Recovery</string>
 			<string>Preboot</string>
+			<string>Boot Windows from</string>
 		</array>
 		<key>PlayAsync</key>
 		<false/>
@@ -1052,15 +1053,17 @@
 		<key>#Version</key>
 		<string>1.0</string>
 		<key>BiosReleaseDate</key>
-		<string>10/30/2019</string>
+		<string>12/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM181.88Z.F000.B00.1910301943</string>
+		<string>IM191.88Z.F000.B00.1912181732</string>
 		<key>Board-ID</key>
-		<string>Mac-4B682C642B45593E</string>
+		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02911301CDLNV9UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1072,13 +1075,13 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>179.0.0.0.0</string>
+		<string>1037.80.34.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE176</string>
+		<string>0xFD8FF576</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF7F</string>
+		<string>0xFFDFFF7F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -1086,11 +1089,13 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0x00</string>
+		<string>0x22</string>
 		<key>ProductName</key>
-		<string>iMac18,1</string>
+		<string>iMac19,1</string>
+		<key>SerialNumber</key>
+		<string>C02YFEY9JV3Q</string>
 		<key>SmUUID</key>
-		<string>33F2EFB3-A984-4021-8D5D-E9666F5E4C5D</string>
+		<string>A4A075C3-BE62-4803-8A8E-7347F8D7B022</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
